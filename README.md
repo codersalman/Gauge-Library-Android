@@ -2,12 +2,20 @@
 
 A custom gauge library for Android, where developers can easily implement meters and gauges in XML UI. This library is written in Kotlin and is inspired by and forked from the discontinued [CustomGauge](https://github.com/pkleczko/CustomGauge), a Java library that was previously hosted on JCenter.
 
+
+
 [![](https://jitpack.io/v/codersalman/Gauge-Library-Android.svg)](https://jitpack.io/#codersalman/Gauge-Library-Android)
 
 ## Features
 - **Simple integration:** Easily add gauge and meter UI elements directly in your XML layouts.
 - **Kotlin-based:** Written in modern Kotlin, ensuring compatibility with current Android projects.
 - **Lightweight:** Optimized for performance and efficient UI rendering.
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/03b2cf63-dad5-42b5-bcc9-334806406c6d" width="333" />
+  <img src="https://github.com/codersalman/Gauge-Library-Android/raw/main/img.png" width="333" /> 
+</p>
+
+
 
 ## Installation
 
@@ -109,10 +117,6 @@ Add the following XML code to your layout file:
         app:gaugeSweepAngle="270"
         />
 ```
-
-### Screenshots
-![img.png](img.png)
-
 
 
 ### License
