@@ -7,6 +7,7 @@
         <attr name="gaugeStrokeCap" format="string" />
         <attr name="gaugeStartAngle" format="integer" />
         <attr name="gaugeSweepAngle" format="integer" />
+        <attr name="gaugeValue" format="integer" />
         <attr name="gaugeStartValue" format="integer" />
         <attr name="gaugeEndValue" format="integer" />
         <attr name="gaugePointSize" format="integer" />

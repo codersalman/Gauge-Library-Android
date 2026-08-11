@@ -106,6 +106,8 @@ class Gauge : View {
         // calculating one point sweep
         mPointAngle = (abs(sweepAngle.toDouble()) / (mEndValue - startValue))
 
+        mValue = a.getInt(styleable.CustomGauge_gaugeValue, startValue)
+
         // calculating divider step
         if (dividerSize > 0) {
             mDividerSize =
@@ -130,8 +132,7 @@ class Gauge : View {
         mPaint!!.style = Paint.Style.STROKE
         mRect = RectF()
 
-        mValue = startValue
-        mPoint = startAngle
+        mPoint = (startAngle + (mValue - startValue) * mPointAngle).toInt()
     }
 
     override fun onDraw(canvas: Canvas) {
